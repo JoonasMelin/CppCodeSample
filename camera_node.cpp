@@ -26,6 +26,8 @@ using namespace FlyCapture2;
 #include "camera.h"
 #include "stringException.h"
 
+//This is an helper function to print the camera information
+//Implementation from ptgrey example 
 void PrintBuildInfo()
 {
     FC2Version fc2Version;
@@ -47,7 +49,7 @@ void PrintBuildInfo()
 }
 
 
-
+//The main function
 int main(int argc, char** argv)
 {
     //Thread handling the reading in case of no trigger signal given
